@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(89, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #2c3e50;
+    height: 200px;
+    width: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 15px 0;
+    flex-direction: column;
+}
+
+.cricle {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 40px;
+    height: 40px;
+   border-radius: 50%;
+}
+
+.cricle.red {
+    background-color: brown;
+    box-shadow:0 0 25px brown;
+}
+
+.cricle.yellow {
+    background-color: rgb(220, 200, 15);
+    box-shadow:0 0 25px rgb(165, 136, 42);
+}
+
+.cricle.green {
+    background-color: rgb(45, 165, 51);
+    box-shadow:0 0 25px rgb(42, 165, 89);
+}
